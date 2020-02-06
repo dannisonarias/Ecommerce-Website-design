@@ -162,7 +162,8 @@ border: none;
     z-index: 1;
 }
 
-.bgc-main{background-color: #f2f2ff;}
+.bgc-main{
+    background-color: #f2f2ff;}
 .lineheight {line-height: 1.5rem;}
 .fa-plus-square-o{
     line-height: 1.2em !important;
