@@ -1,4 +1,6 @@
-<style>
+body {
+    min-width: 320px;
+}
 .font-stack-Helvetica{
     font-family:Helvetica,Arial, sans-serif;
 }
@@ -170,10 +172,21 @@ border: none;
     border-radius: 50px;
 }
 
+.advertisement-wrapper{
+    border: 1px solid blue;
+    overflow: scroll;
+    max-width: 900px;
+}
+
 .ads-images{
     max-width: 300px;
     width: 100%;
     height: auto;
+    
+}
+
+.main-images{
+    max-width: 200px;
 }
 
 
@@ -192,5 +205,3 @@ border: none;
         max-width: 215px;
     }
 }
-
-</style>
