@@ -172,9 +172,13 @@ border: none;
     color:#d35266;
     opacity: 1;
 }
+
+.houses-display-wrapper > .row{
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
 .item-containers{
-    
-    
     padding: 10px 10px;
     background-color: white;
     border: 5px solid #f2f2ff;;
