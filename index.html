@@ -7,27 +7,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-        .color-1redish{
-            background-color: #d35266;
-        }
-        .color-2grayish{
-            background-color: #888888;
-        }
-        .color-3blackish{
-            background-color: #383838;
-        }
+    <link rel="stylesheet" href="css/CSS-RESET-PRESET.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    </style>
   </head>
   <body>
-      <header>
+      <header class="container-fluid">
+            <nav class="row color-3blackish nav-control text-color-white font-stack-Helvetica reset-m-p">
+                <ul class="d-flex col-md-8 col-12 nav-ul text-nowrap">
+                    <li><a href="">
+                        <img class="paw-icon" src="img/icons8-guitar-64.png" alt="">
+                        
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-home" aria-hidden="true"></i>
+                            home</li></a>
+                    <li>
+                        <a href=""><i class="fa fa-deviantart" aria-hidden="true"></i>
+                            collections</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            purchase list</a>
+                    </li>
+                    <li class="post-ad-button bg-color-2 d-none d-lg-block">
+                        <a href=""><i class="fa fa-buysellads" aria-hidden="true"></i>
+                            post an ad</a>
+                    
+                    </li>
+                </ul>
+                <ul class="user-profile col-4 nav-ul-right d-none d-md-flex d-none">
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+                    <li>John Doe</li>
+                    <li><img class="border-radius" src="img/opinion3.png" alt=""></li>
 
+                </ul>
+            </nav>
+            <div class="bottom-of-header text-center col-12 color-1 text-color-white">
+                <img class="large-header-icon" src="img/large-guitar.png" alt="">
+                <h1>Acoustics</h1>
+                <p class="text-color-2">Buying and Selling Acoustics instruments Couldn't be Simpler than this!</p>
+
+                <div class="header-search-wrapper d-flex text-nowrap">
+                    <div class="dropdown">
+                        <button class="dropbtn">All Departments <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+                        <div class="dropdown-content">
+                          <a href="#">Option</a>
+                          <a href="#">Option</a>
+                          <a href="#">Option</a>
+                        </div>
+                    </div>
+                    <input class="search-bar" type="text" placeholder="Search..">
+                    <input class="search-bar-city" type="text" placeholder="New York">
+                </div>
+                
+            </div>
           
       </header>
 
       <main>
+            <div class="advertisements-wrapper row reset-m-p">
+                <h5 class="col-12">
+                    HOT ADS
+                </h5>
+                <div class="ad-1 col-6">
+                    <img class="ads-images " src="img/house-1.jpg" alt="">
+                </div>
+                    <img class="ads-images" src="img/house-2.jpg" alt="">
+                <div class="ad-2 col-6">
+
+                </div>
+
+            </div>
+
 
       </main>
 
