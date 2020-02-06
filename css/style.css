@@ -10,11 +10,19 @@ body {
 .text-color-2{
     color:white ;
 }
+
+.text-color-black{
+    color: black;
+}
 .bg-color-2{
     background-color:#d35266;
 }
 .color-1{
     background-color: #d35266;
+}
+
+.color-main{
+    color: #d35266;;
 }
 .color-2grayish{
     background-color: #888888;
@@ -152,7 +160,32 @@ border: none;
     left: 0px;
     top: 0;
     z-index: 1;
+}
+
+.bgc-main{background-color: #f2f2ff;}
+.lineheight {line-height: 1.5rem;}
+.fa-plus-square-o{
+    line-height: 1.2em !important;
+    opacity: 0.5;
+}
+.fa-plus-square-o:hover{
+    color:#d35266;
+    opacity: 1;
+}
+.item-containers{
     
+    
+    padding: 10px 10px;
+    background-color: white;
+    border: 5px solid #f2f2ff;;
+}
+.item-containers:hover{
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(74,73,74,1);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(74,73,74,1);
+    box-shadow: 0px 0px 3px 0px rgba(74,73,74,1);
+    z-index: 100;
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .header-search-wrapper{
@@ -173,9 +206,11 @@ border: none;
 }
 
 .advertisement-wrapper{
-    border: 1px solid blue;
     overflow: scroll;
     max-width: 900px;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(74,73,74,1);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(74,73,74,1);
+    box-shadow: 0px 0px 3px 0px rgba(74,73,74,1);
 }
 
 .ads-images{
@@ -186,7 +221,7 @@ border: none;
 }
 
 .main-images{
-    max-width: 200px;
+    width: 100%;
 }
 
 
