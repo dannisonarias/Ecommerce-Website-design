@@ -260,7 +260,12 @@ footer{
     color: rgb(149, 149, 149);
     font-size: 20px;
 }
+
+.footer-summary-p{
+    padding: 30px;
+}
 .h4-footer{
+    min-height: 36px;
     text-align: center;
     margin: 10px 0 !important;
     color: #d35266;
@@ -277,6 +282,7 @@ footer{
 }
 
 .footer-ul{
+    padding-top: 30px;
     margin: 0 10px;
 }
 
@@ -285,7 +291,7 @@ footer{
 }
 
 .footer-language-wrapper{
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .selector-settings-footer h3{
