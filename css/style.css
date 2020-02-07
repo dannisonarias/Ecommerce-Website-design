@@ -11,6 +11,10 @@ body {
     color:white ;
 }
 
+.text-center{
+    text-align: center !important;
+}
+
 .text-color-black{
     color: black;
 }
@@ -251,6 +255,34 @@ border: none;
 }
 
 
+/* Footer */
+footer{
+    color: rgb(149, 149, 149);
+    font-size: 20px;
+}
+.h4-footer{
+    text-align: center;
+    margin: 10px 0 !important;
+    color: #d35266;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 2px solid #d35266;
+}
+
+.footer-description h3{
+    color: #d35266;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0 !important;
+}
+
+.footer-ul{
+    margin: 0 10px;
+}
+
+.footer-icon{
+    max-width: 30px;
+}
 
 @media(max-width:728px){
     .nav-ul{
