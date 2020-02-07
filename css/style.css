@@ -284,6 +284,21 @@ footer{
     max-width: 30px;
 }
 
+.footer-language-wrapper{
+    margin-top: 60px;
+}
+
+.selector-settings-footer h3{
+    margin: 5px;
+    padding: 5px;
+    color: #d35266;
+}
+.option-settings-footer h3{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
 @media(max-width:728px){
     .nav-ul{
         font-size: 12px !important;
