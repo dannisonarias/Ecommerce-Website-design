@@ -242,6 +242,12 @@ border: none;
     border-radius: 50px;
 }
 
+.btn-light{
+    font-size: 15px;
+    padding-top: 10px !important;
+}
+
+
 
 .ads-images{
     max-width: 300px;
