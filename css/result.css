@@ -163,6 +163,10 @@ border-right: 1px solid rgba(128, 128, 128, 0.397);
 border: none;
 }
 
+.btn-light{
+    padding-top: 10px !important;
+}
+
 .large-header-icon{
 position: absolute;
 max-height: 250px;
