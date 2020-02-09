@@ -339,7 +339,10 @@ max-width: 30px;
 }
 
 .footer-language-wrapper{
-margin-top: 80px;
+    margin-top: 80px;
+}
+.footer-language-wrapper-2{
+    margin-top: 10px;
 }
 
 .selector-settings-footer h3{
