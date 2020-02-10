@@ -25,7 +25,7 @@ Built With
 
 Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://github.com/dannisonarias/Ecommerce-Website-design/blob/development_stage_one/index.html)
 
 
 Getting Started
