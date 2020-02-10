@@ -47,20 +47,23 @@ a{
 }
 /* advertisement */
 .ad-section1{
-    margin-bottom: 150px;
+    margin-bottom: 80px;
     width: 100%;
+    height: auto;
     max-height: 500px;
     line-height: 2;
     background-color: white;
 }
 
 .bgc-main{
-    max-width: 300px;
-    font-size: 21px;
+    white-space: nowrap;
+    max-width: 250px;
+    font-size: 17px;
     color: white;
     background-color: #d35266;
-    padding: 15px 30px;
+    padding: 0px 30px;
     font-weight: 700;
+    border-radius: 20px;
 }
 
 .a-red:hover{
@@ -80,12 +83,12 @@ a{
     padding: 10px 30px;
     justify-content: space-evenly;
     max-width: 700px;
-    background-color: cadetblue;
+    font-size: 15px;
 }
 
 .ad-summary h3{
     color: #d35266;
-    font-size: 30px;
+    font-size: 22px;
 
     
 }
@@ -94,6 +97,14 @@ a{
 .advertisement-1{
     width: 100%;
     height: auto;
+}
+
+.advertisement-img1 img{
+    width: 100%;
+    height: auto;
+    min-width: 350px;
+    max-width: 525px;
+    max-height: 400px;
 }
 
 .ad-wrapper-1{
