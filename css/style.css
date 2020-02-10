@@ -436,6 +436,11 @@ footer {
     font-size: 12px !important;
   }
 
+  .single-families {
+    background-color: #f2f2ff !important;
+    padding: 2px !important;
+  }
+
   h1 {
     font-size: 50px;
   }
@@ -450,5 +455,11 @@ footer {
 
   .bgc-icon {
     background: #d35266 url('../img/house-png-204\ -small.png') no-repeat;
+  }
+}
+
+@media (max-width: 450px) {
+  .single-families {
+    font-size: 12px;
   }
 }
