@@ -2,6 +2,12 @@ body {
 min-width: 320px;
 }
 
+main{
+    color: #696969;
+    background-color: #f2f2ff !important;
+}
+
+
 footer{
     padding-left: 15px !important ;
     padding-right: 15px !important;
@@ -221,6 +227,14 @@ font-weight: 400;
 color: #d35266;
 }
 
+.single-family-homes{
+    background-color: #f2f2ff !important;
+}
+
+.single-families img{
+    cursor: pointer;
+}
+
 .single-family-homes-icon{
 max-width: 40px;
 }
@@ -238,8 +252,9 @@ white-space: nowrap;
 }
 .item-containers{
 padding: 10px 10px;
-background-color: white;
-border: 5px solid #f2f2ff;;
+border-bottom:1px solid rgb(204, 203, 203);
+border-top:1px solid rgb(206, 206, 206);
+margin-bottom: 10px;
 }
 
 
@@ -309,13 +324,29 @@ height: auto;
     padding: 10px 10px 0px 10px;
 }
 
+.result-count p{
+    color: #696969;
+    padding: 10px;
+}
 .information-wrapper{
     padding: 10px 20px;
     max-height: 261px;
+    background-color: #f2f2ff !important;
 }
 
 .information-wrapper p{
     margin: 0 !important;
+}
+
+.information-wrapper a{
+    text-decoration: none;
+    color: #696969 !important;
+}
+
+.information-wrapper a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #696969 !important;
 }
 
 /* Footer */
