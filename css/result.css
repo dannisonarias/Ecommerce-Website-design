@@ -4,7 +4,6 @@ min-width: 320px;
 
 main{
     color: #696969;
-    background-color: #f2f2ff !important;
 }
 
 
@@ -13,8 +12,9 @@ footer{
     padding-right: 15px !important;
 }
 
-.result-wrapgit{
-    background-color: rgb(245, 245, 245);
+.result-wrap{
+    margin: 0 15px;
+    background-color: #f2f2ff !important;
 }
 .font-stack-Helvetica{
 font-family:Helvetica,Arial, sans-serif;
@@ -255,6 +255,10 @@ padding: 10px 10px;
 border-bottom:1px solid rgb(204, 203, 203);
 border-top:1px solid rgb(206, 206, 206);
 margin-bottom: 10px;
+}
+
+.last-con{
+    margin-bottom: 0;
 }
 
 
