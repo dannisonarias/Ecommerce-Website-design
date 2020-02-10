@@ -2,6 +2,11 @@ body {
 min-width: 320px;
 }
 
+footer{
+    padding-left: 15px !important ;
+    padding-right: 15px !important;
+}
+
 .result-wrapgit{
     background-color: rgb(245, 245, 245);
 }
