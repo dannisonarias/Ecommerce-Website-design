@@ -9,262 +9,248 @@
 
     <link rel="stylesheet" href="../css/result.css">
     <link rel="stylesheet" href="../css/CSS-RESET-PRESET-2.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<header class="container-fluid">
-    <nav class="row color-3blackish nav-control text-color-white font-stack-Helvetica reset-m-p">
-        <ul class="d-flex col-md-8 col-12 nav-ul text-nowrap">
-            <li><a href="">
-                    <img class="paw-icon" src="../img/architecture-and-city.png" alt="">
 
-                </a>
+<body>
+    <header class="container-fluid">
+        <nav class="row color-3blackish nav-control text-color-white font-stack-Helvetica reset-m-p">
+            <ul class="d-flex col-md-8 col-12 nav-ul text-nowrap">
+                <li>
+                    <a href="">
+                        <img class="paw-icon" src="../img/architecture-and-city.png" alt="">
 
-            </li>
-            <li>
-                <a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>
-                    home</li></a>
-            <li>
-                <a href=""><i class="fa fa-deviantart" aria-hidden="true"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>
+                    home</a></li>
+                <li>
+                    <a href=""><i class="fa fa-deviantart" aria-hidden="true"></i>
                     collections</a>
-            </li>
-            <li>
-                <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </li>
+                <li>
+                    <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i>
                     purchase list</a>
-            </li>
-            <li class="post-ad-button bg-color-2 d-none d-lg-block">
-                <a href=""><i class="fa fa-buysellads" aria-hidden="true"></i>
+                </li>
+                <li class="post-ad-button bg-color-2 d-none d-lg-block">
+                    <a href=""><i class="fa fa-buysellads" aria-hidden="true"></i>
                     post an ad</a>
 
-            </li>
-        </ul>
-        <ul class="user-profile col-4 nav-ul-right d-none d-md-flex d-none">
-            <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
-            <li>Hilary Ouse</li>
-            <li><img class="border-radius" src="../img/opinion3.png" alt=""></li>
+                </li>
+            </ul>
+            <ul class="user-profile col-4 nav-ul-right d-none d-md-flex d-none">
+                <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+                <li>Hilary Ouse</li>
+                <li><img class="border-radius" src="../img/opinion3.png" alt=""></li>
 
-        </ul>
-    </nav>
-    <div class="bottom-of-header text-center col-12 bgc-icon text-color-white">
-        <p class="text-color-2">Find the place you’ll love.</p>
+            </ul>
+        </nav>
+        <div class="bottom-of-header text-center col-12 bgc-icon text-color-white">
+            <p class="text-color-2">Find the place you’ll love.</p>
 
-        <div class=" container header-search-wrapper d-flex text-nowrap padding-reset">
-            <div class="dropdown d-none  d-md-block col-3 reset-m-p">
-                <button class="dropbtn">All Departments <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
-                <div class="dropdown-content">
-                    <a href="#">Single Family</a>
-                    <a href="#">Multi-Family</a>
-                    <a href="#">Condominium</a>
+            <div class=" container header-search-wrapper d-flex text-nowrap padding-reset">
+                <div class="dropdown d-none  d-md-block col-3 reset-m-p">
+                    <button class="dropbtn">All Departments <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#">Single Family</a>
+                        <a href="#">Multi-Family</a>
+                        <a href="#">Condominium</a>
+                    </div>
                 </div>
-            </div>
-            <input class="search-bar-city col-8 col-md-7" type="text" placeholder="Enter City or Zip">
+                <input class="search-bar-city col-8 col-md-7" type="text" placeholder="Enter City or Zip">
 
-            <a class="col-4 col-md-2 btn btn-light" href="result.html">Search</a>
+                <a class="col-4 col-md-2 btn btn-light" href="result.html">Search</a>
+            </div>
+
         </div>
 
-    </div>
+    </header>
+    <main class="container-fluid reset-m-p">
+        <div class="d-flex result-wrap">
+            <div class="wrapper-left-form d-none d-lg-block text-nowrap">
+                <div class="rent-own-wrap">
+                    <label for="rent">Rent</label>
+                    <input type="radio" name="rentorown" id="rent" value="rent">
+                    <label class="own-tick" for="own">Ownership</label>
+                    <input type="radio" name="rentorown" id="own" value="own">
+                </div>
 
-</header>
-<main class="container-fluid reset-m-p">
-    <div class="d-flex result-wrap">
-        <div class="wrapper-left-form d-none d-lg-block text-nowrap">
-            <div class="rent-own-wrap">
-                <label for="rent">Rent</label>
-                <input type="radio" name="rentorown" id="rent" value="rent">
-                <label class="own-tick" for="own">Ownership</label>
-                <input type="radio" name="rentorown" id="own" value="own">
-            </div>
-
-            <div>
-                <h5>Type</h5>
+                <div>
+                    <h5>Type</h5>
+                    <hr>
+                    <label for="entire-place">Entire Place</label>
+                    <input type="radio" name="room-type" id="entire-place" value="entire-place">
+                    <br>
+                    <label for="private-room">Private Room</label>
+                    <input type="radio" name="room-type" id="private-room" value="private-room">
+                    <br>
+                    <label for="shared-room">Shared Room</label>
+                    <input type="radio" name="room-type" id="shared-room" value="shared-room">
+                    <br>
+                </div>
                 <hr>
-                <label for="entire-place">Entire Place</label>
-                <input type="radio" name="room-type" id="entire-place" value="entire-place"><br>
-                <label for="private-room">Private Room</label>
-                <input type="radio" name="room-type" id="private-room" value="private-room"><br>
-                <label for="shared-room">Shared Room</label>
-                <input type="radio" name="room-type" id="shared-room" value="shared-room"><br>
+                <div>
+                    <h5>Size</h5>
+                    <label for="2-4-room">2-4 Rooms</label>
+                    <input type="radio" name="room-count" id="2-4-room" value="2-4-room">
+                    <br>
+                    <label for="5rooms">5+ rooms</label>
+                    <input type="radio" name="room-count" id="5rooms" value="5rooms">
+                    <br>
+                </div>
+                <hr>
+                <div>
+                    <h5>Price Range</h5>
+                    <label for="price-10-100">10$ - 100$</label>
+                    <input type="radio" name="price-range" id="price-10-100" value="price-10-100">
+                    <br>
+                    <label for="price-100-200">100$ - 200$</label>
+                    <input type="radio" name="price-range" id="price-100-200" value="price-100-200">
+                    <br>
+                </div>
             </div>
-            <hr>
-            <div>
-                <h5>Size</h5>
-                <label for="2-4-room">2-4 Rooms</label>
-                <input type="radio" name="room-count" id="2-4-room" value="2-4-room"><br>
-                <label for="5+ rooms">5+ Rooms</label>
-                <input type="radio" name="room-count" id="5+ rooms" value="5+ rooms"><br>
-            </div>
-            <hr>
-            <div>
-                <h5>Price Range</h5>
-                <label for="price-10-100">10$ - 100$</label>
-                <input type="radio" name="price-range" id="price-10-100" value="price-10-100"><br>
-                <label for="price-100-200">100$ - 200$</label>
-                <input type="radio" name="price-range" id="price-100-200" value="price-100-200"><br>
-            </div>
-        </div>
-        <div class="results">
-            <div class="result-count">
-                <p>
-                    <strong>2</strong> results for <strong>"single bedroom apartment"</strong> at <strong>New
+            <div class="results">
+                <div class="result-count">
+                    <p>
+                        <strong>2</strong> results for <strong>"single bedroom apartment"</strong> at <strong>New
                         York</strong> in Category <strong>Condominium</strong>
-                </p>
-
-            </div>
-
-            <div class="d-md-flex single-families item-containers">
-                <img class="main-images-result" src="../img/18.jpg" alt="">
-                <div class="information-wrapper d-flex flex-column justify-content-between">
-                    <h5><strong><a href="">This gated community is perfect for your next vacation home</a></strong></h5>
-                    <p class="color-main"><strong>400$ Rent</strong></p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, culpa?</p>
-                    <p>
-                        <strong>Location:</strong>
-                        19835 Timberwind Ln
-                        Houston, TX 77094
-                        5bd,4ba,713sqft
                     </p>
 
+                </div>
 
-
-                    <div class="d-flex justify-content-between ">
-                        <p class="color-main">NEW</p>
-
-                        <p class="color-main price"><i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>$455,000
+                <div class="d-md-flex single-families item-containers">
+                    <img class="main-images-result" src="../img/18.jpg" alt="">
+                    <div class="information-wrapper d-flex flex-column justify-content-between">
+                        <h5><strong><a href="">This gated community is perfect for your next vacation home</a></strong></h5>
+                        <p class="color-main"><strong>400$ Rent</strong></p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, culpa?</p>
+                        <p>
+                            <strong>Location:</strong> 19835 Timberwind Ln Houston, TX 77094 5bd,4ba,713sqft
                         </p>
+
+                        <div class="d-flex justify-content-between ">
+                            <p class="color-main">NEW</p>
+
+                            <p class="color-main price"><i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>$455,000
+                            </p>
+                        </div>
                     </div>
+
+                </div>
+                <div class="d-md-flex single-families item-containers last-con">
+                    <img class="main-images-result" src="../img/19.jpg" alt="">
+                    <div class="information-wrapper d-flex flex-column justify-content-between">
+                        <h5><strong><a href="">Beautiful community in heart of the city</a></strong></h5>
+                        <p class="color-main"><strong>400$ Rent</strong></p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, culpa?</p>
+                        <p>
+                            <strong>Location:</strong> 19835 Timberwind Ln Houston, TX 77094 5bd,4ba,713sqft
+                        </p>
+
+                        <div class="d-flex justify-content-between ">
+                            <p class="color-main">NEW</p>
+
+                            <p class="color-main price"><i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>$455,000
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
-            <div class="d-md-flex single-families item-containers last-con">
-                <img class="main-images-result" src="../img/19.jpg" alt="">
-                <div class="information-wrapper d-flex flex-column justify-content-between">
-                    <h5><strong><a href="">Beautiful community in heart of the city</a></strong></h5>
-                    <p class="color-main"><strong>400$ Rent</strong></p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, culpa?</p>
-                    <p>
-                        <strong>Location:</strong>
-                        19835 Timberwind Ln
-                        Houston, TX 77094
-                        5bd,4ba,713sqft
-                    </p>
-
-
-
-                    <div class="d-flex justify-content-between ">
-                        <p class="color-main">NEW</p>
-
-                        <p class="color-main price"><i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>$455,000
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
 
         </div>
-
-    </div>
-</main>
-<footer>
-    <div class="row">
-        <div class="footer-description col-lg-3 col-md-4 col-12">
-            <h4 class="h4-footer"><img class="footer-icon" src="../img/architecture-and-city.png" alt=""> Real Estate
+    </main>
+    <footer>
+        <div class="row">
+            <div class="footer-description col-lg-3 col-md-4 col-12">
+                <h4 class="h4-footer"><img class="footer-icon" src="../img/architecture-and-city.png" alt=""> Real Estate
             </h4>
-            <p class="footer-summary-p"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea cumque commodi
-                maiores officiis consequatur quam nobis dolore consequuntur esse. Molestiae!</p>
-        </div>
-        <div class="footer-categories col-lg-3 col-md-4 col-6">
-            <h4 class="h4-footer">
+                <p class="footer-summary-p"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea cumque commodi maiores officiis consequatur quam nobis dolore consequuntur esse. Molestiae!</p>
+            </div>
+            <div class="footer-categories col-lg-3 col-md-4 col-6">
+                <h4 class="h4-footer">
                 Categories
             </h4>
-            <div class="d-flex justify-content-center ">
-                <div class="d-flex">
+                <div class="d-flex justify-content-center ">
+                    <div class="d-flex">
+                        <ul class="footer-ul">
+                            <li>Category-1</li>
+                            <li>Category-2</li>
+                            <li>Category-3</li>
+                            <li>Category-4</li>
+                            <li>Category-5</li>
+                            <li>Category-6</li>
+                            <li>Category-7</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-nav col-lg-3 col-6 col-md-4 ">
+                <h4 class="h4-footer ">
+                Navigation
+            </h4>
+                <div class="d-flex justify-content-center ">
                     <ul class="footer-ul">
-                        <li>Category-1</li>
-                        <li>Category-2</li>
-                        <li>Category-3</li>
-                        <li>Category-4</li>
-                        <li>Category-5</li>
-                        <li>Category-6</li>
-                        <li>Category-7</li>
+                        <li>Home</li>
+                        <li>Sign-in</li>
+                        <li>Sign-up</li>
+                        <li>Terms & Condition</li>
+                        <li>FAQ</li>
+                        <li>Help</li>
                     </ul>
 
                 </div>
-            </div>
-        </div>
-        <div class="footer-nav col-lg-3 col-6 col-md-4 ">
-            <h4 class="h4-footer ">
-                Navigation
-            </h4>
-            <div class="d-flex justify-content-center ">
-                <ul class="footer-ul">
-                    <li>Home</li>
-                    <li>Sign-in</li>
-                    <li>Sign-up</li>
-                    <li>Terms & Condition</li>
-                    <li>FAQ</li>
-                    <li>Help</li>
-                </ul>
 
             </div>
+            <div class="footer-language d-md-none d-lg-block col-lg-3">
+                <div class="d-flex footer-language-wrapper">
+                    <div class="selector-settings-footer">
+                        <h3>Country</h3>
+                        <h3>Language</h3>
+                        <h3>Currency</h3>
+                    </div>
+                    <div class="option-settings-footer">
+                        <h3>United States</h3>
+                        <h3>English</h3>
+                        <h3>USD</h3>
+                    </div>
 
-        </div>
-        <div class="footer-language d-md-none d-lg-block col-lg-3">
-            <div class="d-flex footer-language-wrapper">
-                <div class="selector-settings-footer">
-                    <h3>Country</h3>
-                    <h3>Language</h3>
-                    <h3>Currency</h3>
-                </div>
-                <div class="option-settings-footer">
-                    <h3>United States</h3>
-                    <h3>English</h3>
-                    <h3>USD</h3>
                 </div>
 
             </div>
 
-
         </div>
-
-    </div>
-    <div class="footer-language d-none d-md-block d-lg-none">
-        <div class="footer-language-wrapper-2">
-            <div class="selector-settings-footer d-flex">
-                <h3>Country :</h3>
-                <div class="option-settings-footer">
-                    <h3>United States</h3>
-                </div>
-                <h3>Language :</h3>
-                <div class="option-settings-footer">
-                    <h3>English</h3>
-                </div>
-                <h3>Currency :</h3>
-                <div class="option-settings-footer">
-                    <h3>USD</h3>
+        <div class="footer-language d-none d-md-block d-lg-none">
+            <div class="footer-language-wrapper-2">
+                <div class="selector-settings-footer d-flex">
+                    <h3>Country :</h3>
+                    <div class="option-settings-footer">
+                        <h3>United States</h3>
+                    </div>
+                    <h3>Language :</h3>
+                    <div class="option-settings-footer">
+                        <h3>English</h3>
+                    </div>
+                    <h3>Currency :</h3>
+                    <div class="option-settings-footer">
+                        <h3>USD</h3>
+                    </div>
                 </div>
             </div>
+
         </div>
 
+    </footer>
 
-    </div>
-
-</footer>
-
-
-
-<body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
