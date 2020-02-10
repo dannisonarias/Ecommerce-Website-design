@@ -1,6 +1,15 @@
 body {
     min-width: 320px;
 }
+main{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .font-stack-Helvetica{
     font-family:Helvetica,Arial, sans-serif;
 }
@@ -47,7 +56,7 @@ a{
 }
 /* advertisement */
 .ad-section1{
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     width: 100%;
     height: auto;
     max-height: 500px;
@@ -108,11 +117,12 @@ a{
 }
 
 .ad-wrapper-1{
-    padding: 50px;
+    padding: 10px 50px;
 }
 
 .ad-title-heading{
-    padding: 20px 0px;
+    color: #888888;
+    padding: 5px 0px;
     font-size: 30px;
 }
 /* advertisment ^ */
@@ -246,7 +256,9 @@ border: none;
 }
 
 
-.lineheight {line-height: 1.5rem;}
+.xf {line-height: 1.5rem;
+    background-color: white !important;
+padding: 10px;}
 .fa-plus-square-o{
     line-height: 1.2em !important;
     opacity: 0.5;
@@ -257,7 +269,9 @@ border: none;
 }
 
 .s-f-hs-wrapper{
-    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #88888891;
 }
 
 .s-f-hs h2{
@@ -268,6 +282,12 @@ border: none;
     font-size: 15px;
     font-weight: 400;
     color: #d35266;
+    cursor: pointer;
+}
+
+.single-families{
+    background-color:#f2f2ff !important;
+    padding: 15px !important;
 }
 
 .single-family-homes-icon{
@@ -275,6 +295,11 @@ border: none;
 }
 
 .houses-display-wrapper{
+    background-color: #f2f2ff;
+    padding-bottom: 25px !important;
+}
+
+.main-2{
     background-color: #f2f2ff;
 }
 
@@ -327,6 +352,7 @@ border: none;
     height: auto;
     
 }
+
 
 .main-images{
     width: 100%;
