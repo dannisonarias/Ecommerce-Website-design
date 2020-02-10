@@ -39,10 +39,73 @@ h1{
     font-size: 100px;
     font-weight: 500;
 }
+
+
 a{
     text-decoration: none;
     color: white;
 }
+/* advertisement */
+.ad-section1{
+    margin-bottom: 150px;
+    width: 100%;
+    max-height: 500px;
+    line-height: 2;
+    background-color: white;
+}
+
+.bgc-main{
+    max-width: 300px;
+    font-size: 21px;
+    color: white;
+    background-color: #d35266;
+    padding: 15px 30px;
+    font-weight: 700;
+}
+
+.a-red:hover{
+    color: #383838;
+}
+.price-1{
+    padding: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.637);
+}
+.price-det{
+    padding: 10px;
+}
+
+.ad-summary{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    justify-content: space-evenly;
+    max-width: 700px;
+    background-color: cadetblue;
+}
+
+.ad-summary h3{
+    color: #d35266;
+    font-size: 30px;
+
+    
+}
+
+
+.advertisement-1{
+    width: 100%;
+    height: auto;
+}
+
+.ad-wrapper-1{
+    padding: 50px;
+}
+
+.ad-title-heading{
+    padding: 20px 0px;
+    font-size: 30px;
+}
+/* advertisment ^ */
+
 a:hover{
     text-decoration: none;
     color: #d35266;
@@ -51,7 +114,9 @@ a:hover{
     height: 60px;
     width: 100%;
 }
+
 .nav-ul{
+    
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
@@ -169,9 +234,7 @@ border: none;
     z-index: 1;
 }
 
-.bgc-main{
-    /* background-color: #f2f2ff; */
-}
+
 .lineheight {line-height: 1.5rem;}
 .fa-plus-square-o{
     line-height: 1.2em !important;
