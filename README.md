@@ -6,6 +6,12 @@ Responsive E-commerce style website (Capstone).
 
 Additional description about the project and its features.
 
+- The Home page is the main page (search page), with a link to the results page by clicking the search button
+- the search results page, where the results that the user input will be displayed.
+
+- There's a mobile version up to 768px
+- There's a tablet & desktop version from 1024px+
+
 Project anchor tags (links) are only simulations of what could be or would be a functional A tag (they are not meant to redirect only simulate.). 
 
 Project was designed for screens of 320px width and above. 
