@@ -270,6 +270,7 @@ height: auto;
     height: 100%;
 }
 
+
 /* form-styling */
 
 /* styling rent or own labels */
@@ -370,9 +371,13 @@ padding: 5px;
 border: 1px solid gray;
 }
 
-@media(max-width:728px){
+@media(max-width:768px){
 .nav-ul{
 font-size: 12px !important;
+}
+/* after turning main images into a block, we need to allow more width to fill the empty space */
+.main-images-result{
+    max-width: 700px;
 }
 h1{
 font-size: 50px;
