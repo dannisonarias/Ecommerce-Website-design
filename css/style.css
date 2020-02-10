@@ -206,8 +206,6 @@ border: none;
 
 
 .houses-display-wrapper > .row{
-    overflow-x: auto;
-    overflow-y: hidden;
     white-space: nowrap;
 
 }
@@ -312,6 +310,10 @@ footer{
     margin: 5px;
     padding: 5px;
     border: 1px solid gray;
+}
+
+.option-settings-footer{
+    cursor: pointer;
 }
 
 @media(max-width:728px){
