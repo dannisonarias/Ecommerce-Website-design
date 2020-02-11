@@ -12,7 +12,7 @@ main {
 }
 
 body * {
-  font-family: "HelveticaNeue-Medium", "Helvetica", "sans-serif";
+  font-family: "HelveticaNeue-Medium", Helvetica, sans-serif;
 }
 
 .text-color-white {

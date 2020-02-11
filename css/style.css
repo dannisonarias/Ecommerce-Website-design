@@ -8,7 +8,7 @@ main {
 }
 
 body * {
-  font-family: "HelveticaNeue-Medium", "Helvetica", "sans-serif";
+  font-family: "HelveticaNeue-Medium", Helvetica, sans-serif;
 }
 
 .text-color-white {
@@ -136,7 +136,7 @@ a:hover {
 }
 
 .nav-control {
-  font-family: "GothamRounded-Light", "Arial", "Helvetica", "sans-serif" !important;
+  font-family: "GothamRounded-Light", Arial, Helvetica, sans-serif !important;
   height: 60px;
   width: 100%;
 }
