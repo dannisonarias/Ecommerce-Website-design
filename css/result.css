@@ -11,8 +11,8 @@ main {
   background-color: #f2f2ff !important;
 }
 
-.font-stack-Helvetica {
-  font-family: Helvetica, Arial, sans-serif;
+body * {
+  font-family: "HelveticaNeue-Medium";
 }
 
 .text-color-white {
