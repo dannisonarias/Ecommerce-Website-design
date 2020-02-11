@@ -4,6 +4,8 @@ Responsive E-commerce style website (Capstone).
 
 ![screenshot](img/screenshot-1.png)
 
+A video review of this project by Dannison Arias on [Loom-click-here](https://www.loom.com/share/01a01881062940c592842ea170e56260)
+
 Additional description about the project and its features.
 
 - The Home page is the main page (search page), with a link to the results page by clicking the search button
