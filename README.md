@@ -8,8 +8,8 @@ A video review of this project by Dannison Arias on [Loom-click-here](https://ww
 
 Additional description about the project and its features.
 
-- The Home page is the main page (search page), with a link to the results page by clicking the search button
-- the search results page, where the results that the user input will be displayed.
+- The Home page has a search bar with a link to the results page (click the search button)
+- the search results page is where the results that the user input will be displayed.
 
 - There's a mobile version up to 768px
 - There's a tablet & desktop version from 1024px+
