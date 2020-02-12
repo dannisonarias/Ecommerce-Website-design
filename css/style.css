@@ -383,7 +383,7 @@ a:hover {
 }
 
 .single-families {
-  background-color: #f2f2ff !important;
+  background-color: #f6f3f3 !important;
   padding: 15px !important;
 }
 
@@ -392,12 +392,12 @@ a:hover {
 }
 
 .houses-display-wrapper {
-  background-color: #f2f2ff;
+  background-color: #f6f3f3;
   padding-bottom: 25px !important;
 }
 
 .main-2 {
-  background-color: #f2f2ff;
+  background-color: #f6f3f3;
 }
 
 .houses-display-wrapper > .row {
@@ -407,7 +407,7 @@ a:hover {
 .item-containers {
   padding: 10px 10px;
   background-color: white;
-  border: 5px solid #f2f2ff;
+  border: 5px solid #f6f3f3;
 }
 
 .item-containers:hover {
@@ -535,6 +535,10 @@ footer {
 }
 
 @media (max-width: 1023px) {
+  .single-families{
+    padding: 5px !important;
+  }
+
   .bottom-of-header {
     max-height: 150px;
   }
@@ -595,7 +599,7 @@ footer {
   }
 
   .single-families {
-    background-color: #f2f2ff !important;
+    background-color: #f6f3f3 !important;
     padding: 2px !important;
   }
 
