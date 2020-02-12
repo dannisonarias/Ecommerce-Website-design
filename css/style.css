@@ -465,13 +465,14 @@ footer {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 .footer-nav-flex div {
   justify-self: flex-start;
   max-width: 500px;
   min-width: 237px;
 }
 
-.footer-summary{
+.footer-summary {
   padding: 30px 20px;
 }
 
@@ -520,7 +521,7 @@ footer {
   color: #d35266;
 }
 
-.rs-footer{
+.rs-footer {
   min-width: 100px !important;
 }
 
