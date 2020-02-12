@@ -36,10 +36,6 @@ main {
   background-color: #f2f2ff !important;
 }
 
-body * {
-  font-family: "HelveticaNeue-Medium", Helvetica, sans-serif;
-}
-
 .text-color-white {
   color: white;
 }
@@ -66,6 +62,7 @@ body * {
 
 .color-main {
   color: #d35266;
+  font-family: "HelveticaNeue-Medium", Helvetica, sans-serif !important;
 }
 
 .color-2grayish {
@@ -351,6 +348,17 @@ a:hover {
   border-right: 1px solid rgb(197, 197, 197);
 }
 
+.beau-f{
+  text-decoration: none;
+  color: #696969;
+}
+
+
+.beau-f:hover{
+  text-decoration: none;
+  color: #696969;
+}
+
 .result-count {
   padding: 10px 10px 0 10px;
 }
@@ -428,6 +436,8 @@ footer {
 }
 
 .selector-settings-footer h3 {
+  white-space: nowrap;
+  font-size: 22px !important;
   margin: 5px;
   padding: 5px;
   color: #d35266;
@@ -435,9 +445,12 @@ footer {
 
 .option-settings-footer {
   cursor: pointer;
+  
 }
 
 .option-settings-footer h3 {
+  white-space: nowrap;
+  font-size: 22px !important;
   margin: 5px;
   padding: 5px;
   border: 1px solid gray;
