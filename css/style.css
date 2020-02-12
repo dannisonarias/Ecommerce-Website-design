@@ -368,6 +368,7 @@ a:hover {
 .s-f-hs h2 {
   font-size: 24px;
   font-weight: 500;
+  color: #383838cb;
 }
 
 .flex-and-space-between {
@@ -389,6 +390,7 @@ a:hover {
 
 .single-family-homes-icon {
   max-width: 40px;
+  margin-right: 20px;
 }
 
 .houses-display-wrapper {
