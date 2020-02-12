@@ -209,10 +209,11 @@ a:hover {
 
 .nav-ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   text-transform: uppercase;
+  padding-left: 10% !important;
 }
 
 .nav-ul-right {
@@ -220,6 +221,7 @@ a:hover {
   align-items: center;
   text-transform: uppercase;
   justify-content: flex-end;
+  padding-right: 10% !important;
 }
 
 .nav-ul-right li {
@@ -245,7 +247,12 @@ a:hover {
   position: relative;
   width: 100%;
   height: auto;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
+  max-height: 370px;
+}
+
+.bottom-of-header h1 {
+  padding-top: 50px;
 }
 
 .bottom-of-header p {
@@ -279,7 +286,6 @@ a:hover {
   background-color: #f9f9f9;
   min-width: 160px;
   width: 100%;
-  border-right: 5px solid #d35266;
   z-index: 1;
 }
 
@@ -314,7 +320,6 @@ a:hover {
 
 .search-bar {
   padding-left: 50px;
-  border-right: 5px solid #d35266;
 }
 
 .search-bar-city {
@@ -457,7 +462,21 @@ footer {
 
 .footer-nav-flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer-nav-flex div {
+  justify-self: flex-start;
+  max-width: 500px;
+  min-width: 237px;
+}
+
+.footer-summary{
+  padding: 30px 20px;
+}
+
+.footer-summary h4 {
+  padding: 20px;
 }
 
 .footer-summary-p {
@@ -465,12 +484,9 @@ footer {
 }
 
 .h4-footer {
-  min-height: 36px;
-  text-align: center;
-  margin: 10px 0 !important;
+  text-transform: uppercase;
+  padding: 15px 0;
   color: #d35266;
-  font-size: 24px;
-  font-weight: 700;
   border-bottom: 2px solid #d35266;
 }
 
@@ -491,7 +507,7 @@ footer {
 }
 
 .footer-language-wrapper {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .footer-language-wrapper-2 {
@@ -502,6 +518,10 @@ footer {
   margin: 5px;
   padding: 5px;
   color: #d35266;
+}
+
+.rs-footer{
+  min-width: 100px !important;
 }
 
 .option-settings-footer h3 {
@@ -517,6 +537,10 @@ footer {
 @media (max-width: 1023px) {
   .bottom-of-header {
     max-height: 150px;
+  }
+
+  .bottom-of-header h1 {
+    padding-top: 0;
   }
 
   .bottom-of-header h1 {
