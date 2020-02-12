@@ -2,11 +2,6 @@ body {
   min-width: 320px;
 }
 
-main {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .Helvetica-light-stack {
   font-family: "HelveticaNeue-Light", Helvetica, sans-serif !important;
 }
@@ -365,6 +360,11 @@ a:hover {
   padding-right: 10%;
 }
 
+.l-r-p-bgc-2{
+  padding-left: 15%;
+  padding-right: 18%;
+}
+
 .s-f-hs h2 {
   font-size: 24px;
   font-weight: 500;
@@ -383,7 +383,7 @@ a:hover {
 }
 
 .single-families {
-  background-color: #f6f3f3 !important;
+  background-color: whitesmoke !important;
   padding: 15px !important;
 }
 
@@ -392,12 +392,12 @@ a:hover {
 }
 
 .houses-display-wrapper {
-  background-color: #f6f3f3;
+  background-color: whitesmoke;
   padding-bottom: 25px !important;
 }
 
 .main-2 {
-  background-color: #f6f3f3;
+  background-color: whitesmoke;
 }
 
 .houses-display-wrapper > .row {
@@ -407,7 +407,7 @@ a:hover {
 .item-containers {
   padding: 10px 10px;
   background-color: white;
-  border: 5px solid #f6f3f3;
+  border: 5px solid whitesmoke;
 }
 
 .item-containers:hover {
@@ -600,7 +600,7 @@ footer {
   }
 
   .single-families {
-    background-color: #f6f3f3 !important;
+    background-color: whitesmoke !important;
     padding: 2px !important;
   }
 
