@@ -166,7 +166,7 @@ a {
 .img-parent {
   height: 200px;
   width: 100%;
-  min-width: 250px;
+  min-width: 500px;
   max-width: 800px;
   max-height: 300px;
   overflow: hidden;
@@ -179,8 +179,8 @@ a {
   transition: all .5s;
 }
 
-.img-parent:hover .ads-img-control{
-  scale: 2;
+.img-parent:hover .ads-img-control {
+  scale: 1.5;
 }
 
 .buttons-for-ad {
@@ -551,6 +551,10 @@ footer {
 @media (max-width: 1023px) {
   .single-families {
     padding: 5px !important;
+  }
+
+  .img-parent {
+    min-width: 325px;
   }
 
   .bottom-of-header {
