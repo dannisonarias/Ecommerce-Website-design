@@ -145,8 +145,6 @@ a {
 
 /* newADs */
 
-
-
 .section-for-ads {
   padding: 10px 0 50px 0;
 }
@@ -265,7 +263,7 @@ a:hover {
   cursor: pointer;
   height: 100%;
   width: 100%;
-  border-right: 5px solid #d35266 ;
+  border-right: 5px solid #d35266;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -281,7 +279,7 @@ a:hover {
   background-color: #f9f9f9;
   min-width: 160px;
   width: 100%;
-  border-right: 5px solid #d35266 ;
+  border-right: 5px solid #d35266;
   z-index: 1;
 }
 
@@ -316,12 +314,12 @@ a:hover {
 
 .search-bar {
   padding-left: 50px;
-  border-right: 5px solid #d35266 ;
+  border-right: 5px solid #d35266;
 }
 
 .search-bar-city {
   border: none;
-  border-right: 5px solid #d35266 ;
+  border-right: 5px solid #d35266;
 }
 
 .large-header-icon {
@@ -457,6 +455,11 @@ footer {
   padding-right: 15px;
 }
 
+.footer-nav-flex {
+  display: flex;
+  justify-content: center;
+}
+
 .footer-summary-p {
   padding: 30px;
 }
@@ -510,30 +513,43 @@ footer {
 .option-settings-footer {
   cursor: pointer;
 }
-@media (max-width: 1023px){
-  .bottom-of-header{
+
+@media (max-width: 1023px) {
+  .bottom-of-header {
     max-height: 150px;
   }
-  .bottom-of-header h1{
+
+  .bottom-of-header h1 {
     font-size: 50px;
   }
-  .bottom-of-header p{
+
+  .bottom-of-header p {
     font-size: 20px;
   }
-  .header-search-wrapper{
+
+  .header-search-wrapper {
     margin: 5px auto;
   }
-
 }
 
 @media (max-width: 767px) {
-  .dropbtn{
-    border: none ;
+  .dropbtn {
+    border: none;
   }
-  .search-bar-city{border: none;}
+
+  .dropdown-content {
+    border: none;
+  }
+
+  .dropdown-content:hover {
+    border: none;
+  }
+  .search-bar-city { border: none; }
+
   .section-for-ads {
     max-width: 500px;
     margin: 0 auto;
+    padding-bottom: 10px;
   }
 
   .img-text-wrapper-ad {
@@ -546,7 +562,7 @@ footer {
   }
 
   .nav-ul {
-    font-size: 12px !important;
+    font-size: 15px !important;
   }
 
   .bottom-of-header {
@@ -574,6 +590,14 @@ footer {
 @media (max-width: 450px) {
   .buttons-for-ad {
     display: none;
+  }
+
+  .icon-top {
+    display: none;
+  }
+
+  .nav-ul {
+    font-size: 12px !important;
   }
 
   .buttons-for-ad-blocked {
