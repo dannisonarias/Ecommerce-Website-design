@@ -348,13 +348,13 @@ a:hover {
   border-right: 1px solid rgb(197, 197, 197);
 }
 
-.beau-f{
+.beau-f {
   text-decoration: none;
   color: #696969;
 }
 
 
-.beau-f:hover{
+.beau-f:hover {
   text-decoration: none;
   color: #696969;
 }
@@ -445,7 +445,6 @@ footer {
 
 .option-settings-footer {
   cursor: pointer;
-  
 }
 
 .option-settings-footer h3 {
