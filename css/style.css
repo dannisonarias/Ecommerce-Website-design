@@ -163,13 +163,24 @@ a {
   padding: 15px;
 }
 
-.ads-img-control {
-  background: url(../img/21.jpg) center/cover no-repeat;
+.img-parent {
+  height: 200px;
   width: 100%;
-  height: auto;
   min-width: 250px;
-  max-width: 500px;
-  min-height: 100px;
+  max-width: 800px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.ads-img-control {
+  background: url(../img/21.jpg) center/cover;
+  width: 100%;
+  height: 100%;
+  transition: all .5s;
+}
+
+.img-parent:hover .ads-img-control{
+  scale: 2;
 }
 
 .buttons-for-ad {
@@ -579,13 +590,11 @@ footer {
   .search-bar-city { border: none; }
 
   .section-for-ads {
-    max-width: 500px;
-    margin: 0 auto;
     padding-bottom: 10px;
   }
 
   .img-text-wrapper-ad {
-    display: block;
+    display: block !important;
   }
 
   .img-text-wrapper-ad p {
