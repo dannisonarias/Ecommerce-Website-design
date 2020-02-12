@@ -7,8 +7,29 @@ main {
   padding-right: 15px;
 }
 
-body * {
-  font-family: "HelveticaNeue-Medium", Helvetica, sans-serif;
+.Helvetica-light-stack {
+  font-family: "HelveticaNeue-Light", Helvetica, sans-serif !important;
+}
+
+.Helvetica-stack {
+  font-family: "HelveticaNeue-Medium", Helvetica, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "HelveticaNeue-Bold", Helvetica, sans-serif;
+}
+
+.gotham-stack {
+  font-family: "GothamRounded-Light", Arial, Helvetica, sans-serif !important;
+}
+
+.gotham-bold-stack {
+  font-family: "Gotham-Bold", Arial, Helvetica, sans-serif !important;
 }
 
 .text-color-white {
@@ -63,40 +84,30 @@ a {
   width: 100%;
   height: auto;
   max-height: 500px;
-  line-height: 2;
+  line-height: 1.5;
   background-color: white;
 }
 
 .bgc-main {
   white-space: nowrap;
-  max-width: 250px;
+  max-width: 300px;
   font-size: 17px;
   color: white;
   background-color: #d35266;
   padding: 0 30px;
   font-weight: 700;
-  border-radius: 20px;
 }
 
 .a-red:hover {
+  cursor: pointer;
   color: #383838;
-}
-
-.price-1 {
-  padding: 10px;
-  border-right: 1px solid rgba(0, 0, 0, 0.637);
-}
-
-.price-det {
-  padding: 10px;
 }
 
 .ad-summary {
   display: flex;
   flex-direction: column;
-  padding: 10px 30px;
+  padding: 10px 10px;
   justify-content: space-evenly;
-  max-width: 700px;
   font-size: 15px;
 }
 
@@ -108,6 +119,10 @@ a {
 .advertisement-1 {
   width: 100%;
   height: auto;
+}
+
+.advertisement-img1 {
+  display: flex;
 }
 
 .advertisement-img1 img {
@@ -127,6 +142,54 @@ a {
   padding: 5px 0;
   font-size: 30px;
 }
+
+/* newADs */
+
+.section-for-ads {
+  padding: 10px 0 50px 0;
+  background-color: rgb(201, 234, 184);
+}
+
+.section-for-ads h3 {
+  font-weight: 700;
+}
+
+.img-text-wrapper-ad {
+  display: flex;
+}
+
+.text-buttons-wrap {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-text-wrapper-ad p {
+  padding: 15px;
+}
+
+.ads-img-control {
+  min-width: 250px;
+  max-width: 500px;
+}
+
+.buttons-for-ad {
+  margin: 10px;
+  display: flex;
+}
+
+.price-1 {
+  min-width: 80px;
+  padding: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.637);
+}
+
+.price-det {
+  padding: 10px;
+}
+
+/* newADS */
 
 /* advertisment ^ */
 
@@ -287,9 +350,19 @@ a:hover {
   border-bottom: 1px solid #88888891;
 }
 
+.l-r-p-bgc {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .s-f-hs h2 {
   font-size: 24px;
   font-weight: 500;
+}
+
+.flex-and-space-between {
+  display: flex;
+  justify-content: space-between;
 }
 
 .view-all p {
@@ -464,6 +537,7 @@ footer {
   }
 
   .search-field * {
+    background-color: #d35266;
     font-size: 12px;
   }
 }

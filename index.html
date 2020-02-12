@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="css/CSS-RESET-PRESET.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="fonts/font.css">
 
 </head>
 
 <body>
-    <header class="container-fluid">
+    <header class="container-fluid reset-m-p">
         <nav class="row color-3blackish nav-control text-color-white font-stack-Helvetica reset-m-p">
             <ul class="col-md-8 col-12 nav-ul text-nowrap">
                 <li>
@@ -42,7 +42,7 @@
 
                 </li>
             </ul>
-            <ul class="user-profile col-4 nav-ul-right d-none d-md-flex d-none">
+            <ul class="user-profile gotham-bold-stack col-4 nav-ul-right d-none d-md-flex d-none">
                 <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
                 <li>Hilary Ouse</li>
                 <li><img class="border-radius" src="img/opinion3.png" alt=""></li>
@@ -51,9 +51,9 @@
         </nav>
         <div class="bottom-of-header text-center col-12 bgc-icon text-color-white">
             <h1>Real Estate</h1>
-            <p class="text-color-2">Find the place you’ll love.</p>
+            <p class="text-color-2 Helvetica-stack">Find the place you’ll love.</p>
 
-            <div class=" container header-search-wrapper d-flex text-nowrap padding-reset">
+            <div class=" container header-search-wrapper Helvetica-light-stack d-flex text-nowrap padding-reset">
                 <div class="dropdown  d-none d-md-block col-3 reset-m-p">
                     <button class="dropbtn">Departments <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
                     <div class="dropdown-content">
@@ -62,7 +62,7 @@
                         <a class="dropdown-content-a" href="#">Condominium</a>
                     </div>
                 </div>
-                <input class="search-bar-city col-8 col-md-7" type="text" placeholder="Enter City or Zip">
+                <input class="search-bar-city col-8 col-md-7" type="text" placeholder="City or zip code">
 
                 <a class="col-4 col-md-2 btn btn-light" href="pages/result.html">Search</a>
             </div>
@@ -73,14 +73,16 @@
 
     <main>
 
-        <div class="container-fluid reset-m-p houses-display-wrapper ">
+        
+            <!-- delete -->
+        <div class="l-r-p-bgc d-none">
             <div class="ad-section1 d-none d-lg-block col-12">
                 <div class="ad-wrapper-1 ">
                     <div class="ad-title-">
                         <h3 class="ad-title-heading">ADS</h3>
 
                     </div>
-                    <div class="advertisement-img1 d-flex ">
+                    <div class="advertisement-img1">
                         <img src="img/21.jpg" alt="">
                         <div class="ad-summary">
                             <h3>INCREDIBLE ONE OF A KIND PENTHOUSE</h3>
@@ -90,9 +92,9 @@
 
                             <p>By : Louis Bush</p>
                             <p><strong>Location :</strong> 310 E 46th St # PHHJ, New York, NY 10017</p>
-                            <div class="d-flex bgc-main">
-                                <div class="price-1"><a class="a-red" href="">$400</a></div>
-                                <div class="price-det"><a class="a-red" href="">Purchase Details</a></div>
+                            <div class="d-flex bgc-main ">
+                                <div class="price-1 "><a class="a-red gotham-bold-stack" href="">$400</a></div>
+                                <div class="price-det"><a class="a-red gotham-bold-stack" href="">Purchase Details</a></div>
                             </div>
 
                         </div>
@@ -100,6 +102,24 @@
                 </div>
             </div>
         </div>
+            <!-- delete -->
+
+        <div class="l-r-p-bgc section-for-ads">
+            <h3 class="ad-title-heading">ADS</h3>
+            <div class="img-text-wrapper-ad">
+                <img class="ads-img-control" src="img/21.jpg" alt="">
+                <div class="text-buttons-wrap">
+                    <p class="gotham-stack">Welcome home Residence 8 at 186 Vostok 2 Street. This spacious room showcases all the pre-war gourmet cuisine, while also highlighting the modern need for plenty of storage space. The house comes with bare brick walls, high ceilings, parquet floors and beautiful fireplaces.</p>
+                    <div class="buttons-for-ad bgc-main">
+                        <div class="price-1"><a class="a-red" href="">$400</a></div>
+                        <div class="price-det"><a class="a-red" href="">Purchase Details</a></div>
+                    </div>
+                </div>
+           </div>
+           
+
+        </div>
+        
         <div class=" search-field text-nowrap d-md-none padding-reset">
             <div class="dropdown col-5 ">
                 <button class="dropbtn">Departments <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
@@ -114,95 +134,16 @@
         </div>
         
 
-        <div class="d-flex col-12 main-2 s-f-hs-wrapper justify-content-between align-items-end">
-            <div class="d-flex s-f-hs align-items-end">
-                <img class="single-family-homes-icon" src="img/icons8-home-64.png" alt="">
-                <h2>Single Family Homes</h2>
-            </div>
-            <div class="view-all">
-                <p>View All</p>
-            </div>
-
-        </div>
-
-        <div class="row reset-m-p main-2 flex-nowrap">
-
-            <div class="single-families col-6 col-lg-3 col-md-4 item-containers">
-                <div class="xf">
-                    <img class="main-images" src="img/house-1.jpg" alt="">
-                    <p>19835 Timberwind Ln</p>
-                    <p>Houston, TX 77094</p>
-
-                    <p>5bd,4ba,713sqft</p>
-                    <p class="color-main">NEW</p>
-
-                    <div class="d-flex justify-content-between ">
-                        <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                        <p class="color-main price">$455,000</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="single-families col-6 col-lg-3 col-md-4 item-containers">
-                <div class="xf">
-                    <img class="main-images" src="img/house-2.jpg" alt="">
-                    <p>19835 Timberwind Ln</p>
-                    <p>Houston, TX 77094</p>
-
-                    <p>5bd,4ba,713sqft</p>
-                    <p class="color-main">NEW</p>
-
-                    <div class="d-flex justify-content-between ">
-                        <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                        <p class="color-main price">$455,000</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="single-families col-6 d-none d-md-block col-lg-3 col-md-4 item-containers">
-                <div class="xf">
-                    <img class="main-images" src="img/3.jpg" alt="">
-                    <p>19835 Timberwind Ln</p>
-                    <p>Houston, TX 77094</p>
-
-                    <p>5bd,4ba,713sqft</p>
-                    <p class="color-main">NEW</p>
-
-                    <div class="d-flex justify-content-between ">
-                        <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                        <p class="color-main price">$455,000</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="single-families  col-6 d-none d-lg-block col-6 col-lg-3 col-md-4 item-containers">
-                <div class="xf">
-                    <img class="main-images" src="img/4.jpg" alt="">
-                    <p>19835 Timberwind Ln</p>
-                    <p>Houston, TX 77094</p>
-
-                    <p>5bd,4ba,713sqft</p>
-                    <p class="color-main">NEW</p>
-
-                    <div class="d-flex justify-content-between ">
-                        <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                        <p class="color-main price">$455,000</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="container-fluid reset-m-p houses-display-wrapper ">
+        <div class="l-r-p-bgc houses-display-wrapper ">
             <div class="d-flex col-12 s-f-hs-wrapper justify-content-between align-items-end">
                 <div class="d-flex s-f-hs align-items-end">
                     <img class="single-family-homes-icon" src="img/icons8-home-64.png" alt="">
-                    <h2>Condominium</h2>
+                    <h2>Single Family Homes</h2>
                 </div>
                 <div class="view-all">
                     <p>View All</p>
                 </div>
+                
 
             </div>
 
@@ -211,65 +152,65 @@
                 <hr>
 
                 <div class="single-families col-6 col-lg-3 col-md-4 item-containers">
-                    <div class="xf">
-                        <img class="main-images" src="img/5.jpg" alt="">
-                        <p>19835 Timberwind Ln</p>
+                    <div class="xf Helvetica-stack">
+                        <img class="main-images" src="img/7.jpg" alt="">
+                        <p>19835 Timberwind</p>
                         <p>Houston, TX 77094</p>
 
                         <p>5bd,4ba,713sqft</p>
-                        <p class="color-main">NEW</p>
+                        <p class="color-main gotham-bold-stack gotham-bold-stack">NEW</p>
 
-                        <div class="d-flex justify-content-between ">
+                        <div class="flex-and-space-between ">
                             <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                            <p class="color-main price">$455,000</p>
+                            <p class="color-main gotham-bold-stack price">$455,000</p>
                         </div>
                     </div>
 
                 </div>
                 <div class="single-families col-6 col-lg-3 col-md-4 item-containers">
-                    <div class="xf">
-                        <img class="main-images" src="img/6.jpg" alt="">
-                        <p>19835 Timberwind Ln</p>
+                    <div class="xf Helvetica-stack">
+                        <img class="main-images" src="img/4.jpg" alt="">
+                        <p>19835 Timberwind</p>
                         <p>Houston, TX 77094</p>
 
                         <p>5bd,4ba,713sqft</p>
-                        <p class="color-main">NEW</p>
+                        <p class="color-main gotham-bold-stack">NEW</p>
 
-                        <div class="d-flex justify-content-between ">
+                        <div class="flex-and-space-between ">
                             <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                            <p class="color-main price">$455,000</p>
+                            <p class="color-main gotham-bold-stack price">$455,000</p>
                         </div>
                     </div>
 
                 </div>
                 <div class="single-families col-6 d-none d-md-block col-lg-3 col-md-4 item-containers">
-                    <div class="xf">
-                        <img class="main-images" src="img/7.jpg" alt="">
-                        <p>19835 Timberwind Ln</p>
+                    <div class="xf Helvetica-stack">
+                        <img class="main-images" src="img/3.jpg" alt="">
+                        <p>19835 Timberwind</p>
                         <p>Houston, TX 77094</p>
 
                         <p>5bd,4ba,713sqft</p>
-                        <p class="color-main">NEW</p>
+                        <p class="color-main gotham-bold-stack">NEW</p>
 
-                        <div class="d-flex justify-content-between ">
+                        <div class="flex-and-space-between ">
                             <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                            <p class="color-main price">$455,000</p>
+                            <p class="color-main gotham-bold-stack price">$455,000</p>
                         </div>
                     </div>
 
                 </div>
                 <div class="single-families col-6  col-6 d-none d-lg-block col-lg-3 col-md-4 item-containers">
-                    <div class="xf">
-                        <img class="main-images" src="img/8.jpg" alt="">
-                        <p>19835 Timberwind Ln</p>
+                    <div class="xf Helvetica-stack">
+                        <img class="main-images" src="img/5.jpg" alt="">
+                        <p>19835 Timberwind</p>
                         <p>Houston, TX 77094</p>
 
                         <p>5bd,4ba,713sqft</p>
-                        <p class="color-main">NEW</p>
+                        <p class="color-main gotham-bold-stack">NEW</p>
 
-                        <div class="d-flex justify-content-between ">
+                        <div class="flex-and-space-between ">
                             <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                            <p class="color-main price">$455,000</p>
+                            <p class="color-main gotham-bold-stack price">$455,000</p>
                         </div>
                     </div>
 
@@ -277,7 +218,94 @@
 
             </div>
         </div>
-        <div class=" houses-display-wrapper ">
+
+       
+
+        <div class="l-r-p-bgc houses-display-wrapper ">
+            <div class="d-flex col-12 s-f-hs-wrapper justify-content-between align-items-end">
+                <div class="d-flex s-f-hs align-items-end">
+                    <img class="single-family-homes-icon" src="img/icons8-home-64.png" alt="">
+                    <h2>Condominium</h2>
+                </div>
+                <div class="view-all">
+                    <p>View All</p>
+                </div>
+                
+
+            </div>
+
+            <div class="row reset-m-p flex-nowrap">
+
+                <hr>
+
+                <div class="single-families col-6 col-lg-3 col-md-4 item-containers">
+                    <div class="xf Helvetica-stack">
+                        <img class="main-images" src="img/5.jpg" alt="">
+                        <p>19835 Timberwind</p>
+                        <p>Houston, TX 77094</p>
+
+                        <p>5bd,4ba,713sqft</p>
+                        <p class="color-main gotham-bold-stack ">NEW</p>
+
+                        <div class="flex-and-space-between ">
+                            <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
+                            <p class="color-main gotham-bold-stack  price">$455,000</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="single-families col-6 col-lg-3 col-md-4 item-containers">
+                    <div class="xf Helvetica-stack">
+                        <img class="main-images" src="img/6.jpg" alt="">
+                        <p>19835 Timberwind</p>
+                        <p>Houston, TX 77094</p>
+
+                        <p>5bd,4ba,713sqft</p>
+                        <p class="color-main gotham-bold-stack ">NEW</p>
+
+                        <div class="flex-and-space-between ">
+                            <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
+                            <p class="color-main gotham-bold-stack  price">$455,000</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="single-families col-6 d-none d-md-block col-lg-3 col-md-4 item-containers">
+                    <div class="xf Helvetica-stack">
+                        <img class="main-images" src="img/7.jpg" alt="">
+                        <p>19835 Timberwind</p>
+                        <p>Houston, TX 77094</p>
+
+                        <p>5bd,4ba,713sqft</p>
+                        <p class="color-main gotham-bold-stack ">NEW</p>
+
+                        <div class="flex-and-space-between ">
+                            <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
+                            <p class="color-main gotham-bold-stack  price">$455,000</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="single-families col-6  col-6 d-none d-lg-block col-lg-3 col-md-4 item-containers">
+                    <div class="xf Helvetica-stack">
+                        <img class="main-images" src="img/8.jpg" alt="">
+                        <p>19835 Timberwind</p>
+                        <p>Houston, TX 77094</p>
+
+                        <p>5bd,4ba,713sqft</p>
+                        <p class="color-main gotham-bold-stack ">NEW</p>
+
+                        <div class="flex-and-space-between ">
+                            <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
+                            <p class="color-main gotham-bold-stack  price">$455,000</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="l-r-p-bgc houses-display-wrapper ">
             <div class="d-flex col-12 s-f-hs-wrapper justify-content-between align-items-end">
                 <div class="d-flex s-f-hs align-items-end">
                     <img class="single-family-homes-icon" src="img/icons8-home-64.png" alt="">
@@ -294,65 +322,65 @@
                 <hr>
 
                 <div class="single-families col-6 col-lg-3 col-md-4 item-containers">
-                    <div class="xf main-images-border">
+                    <div class="xf Helvetica-stack main-images-border">
                         <img class="main-images" src="img/9.jpg" alt="">
-                        <p>19835 Timberwind Ln</p>
+                        <p>19835 Timberwind</p>
                         <p>Houston, TX 77094</p>
 
                         <p>5bd,4ba,713sqft</p>
-                        <p class="color-main">NEW</p>
+                        <p class="color-main gotham-bold-stack ">NEW</p>
 
-                        <div class="d-flex justify-content-between ">
+                        <div class="flex-and-space-between ">
                             <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                            <p class="color-main price">$455,000</p>
+                            <p class="color-main gotham-bold-stack  price">$455,000</p>
                         </div>
                     </div>
 
                 </div>
                 <div class="single-families col-6 col-lg-3 col-md-4 item-containers">
-                    <div class="xf main-images-border ">
+                    <div class="xf Helvetica-stack main-images-border ">
                         <img class="main-images" src="img/10.jpg" alt="">
-                        <p>19835 Timberwind Ln</p>
+                        <p>19835 Timberwind</p>
                         <p>Houston, TX 77094</p>
 
                         <p>5bd,4ba,713sqft</p>
-                        <p class="color-main">NEW</p>
+                        <p class="color-main gotham-bold-stack ">NEW</p>
 
-                        <div class="d-flex justify-content-between ">
+                        <div class="flex-and-space-between ">
                             <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                            <p class="color-main price">$455,000</p>
+                            <p class="color-main gotham-bold-stack  price">$455,000</p>
                         </div>
                     </div>
 
                 </div>
                 <div class="single-families col-6 d-none d-md-block col-lg-3 col-md-4 item-containers">
-                    <div class="xf main-images-border ">
+                    <div class="xf Helvetica-stack main-images-border ">
                         <img class="main-images" src="img/11.jpg" alt="">
-                        <p>19835 Timberwind Ln</p>
+                        <p>19835 Timberwind</p>
                         <p>Houston, TX 77094</p>
 
                         <p>5bd,4ba,713sqft</p>
-                        <p class="color-main">NEW</p>
+                        <p class="color-main gotham-bold-stack ">NEW</p>
 
-                        <div class="d-flex justify-content-between ">
+                        <div class="flex-and-space-between ">
                             <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                            <p class="color-main price">$455,000</p>
+                            <p class="color-main gotham-bold-stack  price">$455,000</p>
                         </div>
                     </div>
 
                 </div>
                 <div class="single-families col-6  col-6 d-none d-lg-block col-lg-3 col-md-4 item-containers">
-                    <div class="xf main-images-border ">
+                    <div class="xf Helvetica-stack main-images-border ">
                         <img class="main-images" src="img/12.jpg" alt="">
-                        <p>19835 Timberwind Ln</p>
+                        <p>19835 Timberwind</p>
                         <p>Houston, TX 77094</p>
 
                         <p>5bd,4ba,713sqft</p>
-                        <p class="color-main">NEW</p>
+                        <p class="color-main gotham-bold-stack">NEW</p>
 
-                        <div class="d-flex justify-content-between ">
+                        <div class="flex-and-space-between ">
                             <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
-                            <p class="color-main price">$455,000</p>
+                            <p class="color-main gotham-bold-stack price">$455,000</p>
                         </div>
                     </div>
 
@@ -446,7 +474,7 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxF Helvetica-stackDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
