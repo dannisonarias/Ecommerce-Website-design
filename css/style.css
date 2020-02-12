@@ -145,9 +145,10 @@ a {
 
 /* newADs */
 
+
+
 .section-for-ads {
   padding: 10px 0 50px 0;
-  background-color: rgb(201, 234, 184);
 }
 
 .section-for-ads h3 {
@@ -170,8 +171,12 @@ a {
 }
 
 .ads-img-control {
+  background: url(../img/21.jpg) center/cover no-repeat;
+  width: 100%;
+  height: auto;
   min-width: 250px;
   max-width: 500px;
+  min-height: 100px;
 }
 
 .buttons-for-ad {
@@ -250,6 +255,7 @@ a:hover {
 }
 
 /* Style The Dropdown Button */
+
 .dropbtn {
   background-color: white;
   color: rgba(0, 0, 0, 0.589);
@@ -504,7 +510,21 @@ footer {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .section-for-ads {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .img-text-wrapper-ad {
+    display: block;
+  }
+
+  .img-text-wrapper-ad p {
+    font-size: 16px;
+    text-align: left;
+  }
+
   .nav-ul {
     font-size: 12px !important;
   }
@@ -532,12 +552,44 @@ footer {
 }
 
 @media (max-width: 450px) {
+  .buttons-for-ad {
+    display: none;
+  }
+
+  .buttons-for-ad-blocked {
+    display: block !important;
+    white-space: nowrap;
+    max-width: 180px;
+    font-size: 17px;
+    color: white;
+    background-color: #d35266;
+    padding: 0 30px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .price-1 {
+    text-align: center;
+    border: none;
+  }
+
+  .a-red {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .l-r-p-bgc {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
   .single-families {
     font-size: 12px;
   }
 
   .search-field * {
-    background-color: #d35266;
     font-size: 12px;
   }
 }

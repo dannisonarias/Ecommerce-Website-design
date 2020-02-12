@@ -2,6 +2,31 @@ body {
   min-width: 320px;
 }
 
+.Helvetica-light-stack {
+  font-family: "HelveticaNeue-Light", Helvetica, sans-serif !important;
+}
+
+.Helvetica-stack {
+  font-family: "HelveticaNeue-Medium", Helvetica, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "HelveticaNeue-Bold", Helvetica, sans-serif;
+}
+
+.gotham-stack {
+  font-family: "GothamRounded-Light", Arial, Helvetica, sans-serif !important;
+}
+
+.gotham-bold-stack {
+  font-family: "Gotham-Bold", Arial, Helvetica, sans-serif !important;
+}
+
 main {
   color: #696969;
 }
