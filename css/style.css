@@ -142,9 +142,10 @@ a:hover {
 }
 
 .nav-ul {
-  width: 100%;
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
   text-transform: uppercase;
 }
 
@@ -430,9 +431,13 @@ footer {
   cursor: pointer;
 }
 
-@media (max-width: 728px) {
+@media (max-width: 768px) {
   .nav-ul {
     font-size: 12px !important;
+  }
+
+  .bottom-of-header {
+    display: none;
   }
 
   .single-families {
@@ -451,14 +456,14 @@ footer {
   .large-header-icon {
     max-width: 215px;
   }
-
-  .bgc-icon {
-    background: #d35266 url('../img/house-png-204\ -small.png') no-repeat;
-  }
 }
 
 @media (max-width: 450px) {
   .single-families {
+    font-size: 12px;
+  }
+
+  .search-field * {
     font-size: 12px;
   }
 }
