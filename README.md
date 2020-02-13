@@ -27,7 +27,7 @@ Built With
 
 Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/dannisonarias/Ecommerce-Website-design/29514462e5ab0a663f71de0f6706508c43089abc/index.html)
+[Live Demo Link](https://rawcdn.githack.com/dannisonarias/Ecommerce-Website-design/6b869848ff090ccbb2e9329b5843abfb58d4af0c/index.html)
 
 
 Getting Started
