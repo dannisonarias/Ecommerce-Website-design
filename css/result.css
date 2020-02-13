@@ -1,0 +1,477 @@
+body {
+  min-width: 320px;
+}
+
+.Helvetica-light-stack {
+  font-family: "HelveticaNeue-Light", Helvetica, sans-serif !important;
+}
+
+.Helvetica-stack {
+  font-family: "HelveticaNeue-Medium", Helvetica, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "HelveticaNeue-Bold", Helvetica, sans-serif;
+}
+
+.gotham-stack {
+  font-family: "GothamRounded-Light", Arial, Helvetica, sans-serif !important;
+}
+
+.gotham-bold-stack {
+  font-family: "Gotham-Bold", Arial, Helvetica, sans-serif !important;
+}
+
+main {
+  color: #696969;
+}
+
+.result-wrap {
+  margin: 0 15px;
+  background-color: #f2f2ff !important;
+}
+
+.text-color-white {
+  color: white;
+}
+
+.text-color-2 {
+  color: white;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-color-black {
+  color: black;
+}
+
+.bg-color-2 {
+  background-color: #d35266;
+}
+
+.bgc-icon {
+  background: #d35266 url('../img/house-png-204\ -extrasmall.png') no-repeat;
+}
+
+.color-main {
+  color: #d35266;
+  font-family: "HelveticaNeue-Medium", Helvetica, sans-serif !important;
+}
+
+.color-2grayish {
+  background-color: #888;
+}
+
+.color-3blackish {
+  background-color: #383838;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #d35266;
+}
+
+.nav-control {
+  height: 60px;
+  width: 100%;
+}
+
+.nav-ul {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.nav-ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+}
+
+.nav-ul a:hover {
+  text-decoration: none;
+  color: #d35266;
+}
+
+.nav-ul-right {
+  width: 100%;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: flex-end;
+}
+
+.nav-ul-right li {
+  margin: 0 5px;
+}
+
+.paw-icon {
+  color: red;
+  width: 100%;
+  max-height: 40px;
+}
+
+.post-ad-button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.post-ad-button a:hover {
+  color: #383838;
+}
+
+.bottom-of-header {
+  position: relative;
+  width: 100%;
+  height: 130px;
+  padding-bottom: 50px;
+}
+
+.bottom-of-header p {
+  font-size: 25px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.589);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover { background-color: #f1f1f1; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color: white;
+  background-color: #383838;
+}
+
+.padding-reset {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.search-bar {
+  border: none;
+  padding-left: 50px;
+  border-right: 1px solid rgba(128, 128, 128, 0.397);
+}
+
+.search-bar-city {
+  border: none;
+}
+
+.btn-light {
+  padding-top: 10px !important;
+}
+
+.large-header-icon {
+  position: absolute;
+  max-height: 250px;
+  max-width: 290px;
+  width: auto;
+  opacity: 0.1;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.lineheight { line-height: 1.5rem; }
+
+.fa-plus-square-o {
+  line-height: 1.2em !important;
+  opacity: 0.5;
+}
+
+.fa-plus-square-o:hover {
+  color: #d35266;
+  opacity: 1;
+}
+
+.s-f-hs-wrapper {
+  margin-top: 25px;
+}
+
+.s-f-hs h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.view-all p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #d35266;
+}
+
+.single-family-homes {
+  background-color: #f2f2ff !important;
+}
+
+.single-families img {
+  cursor: pointer;
+}
+
+.single-family-homes-icon {
+  max-width: 40px;
+}
+
+.houses-display-wrapper {
+  background-color: #f2f2ff;
+}
+
+.houses-display-wrapper > .row {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.item-containers {
+  padding: 10px 10px;
+  border-bottom: 1px solid rgb(204, 203, 203);
+  border-top: 1px solid rgb(206, 206, 206);
+  margin-bottom: 10px;
+}
+
+.last-con {
+  margin-bottom: 0;
+}
+
+.header-search-wrapper {
+  width: 80%;
+  margin: 5px auto;
+  background-color: white;
+  height: 50px;
+  z-index: 5;
+}
+
+.reset-m-p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.border-radius {
+  max-width: 55px;
+  border-radius: 50px;
+}
+
+.ads-images {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.main-images-result {
+  width: 100%;
+  max-width: 350px;
+  min-height: 261px;
+  height: 100%;
+}
+
+/* form-styling */
+
+/* styling rent or own labels */
+.wrapper-left-form {
+  width: 325px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.wrapper-left-form h5 {
+  font-weight: 700;
+}
+
+.rent-own-wrap {
+  padding: 10px 10px 10px 10px;
+}
+
+.own-tick {
+  margin-left: 20px;
+}
+
+/* results */
+.results {
+  width: 100%;
+  height: auto;
+  border-left: 1px solid rgb(197, 197, 197);
+  border-right: 1px solid rgb(197, 197, 197);
+}
+
+.beau-f {
+  text-decoration: none;
+  color: #696969;
+}
+
+.beau-f:hover {
+  text-decoration: none;
+  color: #696969;
+}
+
+.result-count {
+  padding: 10px 10px 0 10px;
+}
+
+.result-count p {
+  color: #696969;
+  padding: 10px;
+}
+
+.information-wrapper {
+  padding: 10px 20px;
+  max-height: 261px;
+  background-color: #f2f2ff !important;
+}
+
+.information-wrapper p {
+  margin: 0 !important;
+}
+
+.information-wrapper-a {
+  text-decoration: none;
+  color: #696969 !important;
+}
+
+.information-wrapper-a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #696969 !important;
+}
+
+/* Footer */
+footer {
+  color: rgb(149, 149, 149);
+  font-size: 20px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.footer-summary-p {
+  padding: 30px;
+}
+
+.h4-footer {
+  min-height: 36px;
+  text-align: center;
+  margin: 10px 0 !important;
+  color: #d35266;
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 2px solid #d35266;
+}
+
+.footer-description h3 {
+  color: #d35266;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0 !important;
+}
+
+.footer-ul {
+  padding-top: 30px;
+  margin: 0 10px;
+}
+
+.footer-icon {
+  max-width: 30px;
+}
+
+.footer-language-wrapper {
+  margin-top: 80px;
+}
+
+.footer-language-wrapper-2 {
+  margin-top: 10px;
+}
+
+.selector-settings-footer h3 {
+  white-space: nowrap;
+  font-size: 22px !important;
+  margin: 5px;
+  padding: 5px;
+  color: #d35266;
+}
+
+.option-settings-footer {
+  cursor: pointer;
+}
+
+.option-settings-footer h3 {
+  white-space: nowrap;
+  font-size: 22px !important;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+@media (max-width: 768px) {
+  .nav-ul {
+    font-size: 12px !important;
+  }
+
+  /* after turning main images into a block, we need to allow more width to fill the empty space */
+  .main-images-result {
+    max-width: 700px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .bottom-of-header p {
+    font-size: 15px;
+  }
+
+  .large-header-icon {
+    max-width: 215px;
+  }
+
+  .bgc-icon {
+    background: #d35266 url('../img/house-png-204\ -small.png') no-repeat;
+  }
+}

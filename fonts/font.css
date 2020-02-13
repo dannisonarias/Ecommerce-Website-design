@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  src:
+    url('HelveticaNeueBold/HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg'),
+    url('HelveticaNeueBold/HelveticaNeue-Bold.ttf') format('truetype'),
+    url('HelveticaNeueBold/HelveticaNeue-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueBold';
+  src: url('HelveticaNeueBold/HelveticaNeueBold.eot');
+  src: url('HelveticaNeueBold/HelveticaNeueBold.eot#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Medium';
+  src: url('HelveticaNeueMedium/HelveticaNeue-Medium.eot');
+  src:
+    url('HelveticaNeueMedium/HelveticaNeue-Medium.eot#iefix') format('embedded-opentype'),
+    url('HelveticaNeueMedium/HelveticaNeue-Medium.svg#HelveticaNeue-Medium') format('svg'),
+    url('HelveticaNeueMedium/HelveticaNeue-Medium.ttf') format('truetype'),
+    url('HelveticaNeueMedium/HelveticaNeue-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Light';
+  src:
+    url('HelveticaNeueLight/HelveticaNeue-Light.svg#HelveticaNeue-Light') format('svg'),
+    url('HelveticaNeueLight/HelveticaNeue-Light.ttf') format('truetype'),
+    url('HelveticaNeueLight/HelveticaNeue-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helvetica-neue-light';
+  src: url('HelveticaNeueLight/helvetica-neue-light.eot');
+  src: url('HelveticaNeueLight/helvetica-neue-light.eot#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamRounded-Light';
+  src: url('GothamRoundedLight/GothamRounded-Light.eot');
+  src:
+    url('GothamRoundedLight/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+    url('GothamRoundedLight/GothamRounded-Light.svg#GothamRounded-Light') format('svg'),
+    url('GothamRoundedLight/GothamRounded-Light.ttf') format('truetype'),
+    url('GothamRoundedLight/GothamRounded-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('GothamBold/Gotham-Bold.eot');
+  src:
+    url('GothamBold/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+    url('GothamBold/Gotham-Bold.svg#Gotham-Bold') format('svg'),
+    url('GothamBold/Gotham-Bold.ttf') format('truetype'),
+    url('GothamBold/Gotham-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
